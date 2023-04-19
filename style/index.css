@@ -208,14 +208,16 @@ input.form-control.input-search-homepage{
   font-size: 14px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   input.form-control.input-search-homepage{
     width: 100%;
     max-width: unset !important;
     margin-right: 0px !important;
+    height: 40px;
   }
   button.btn.btn-login-homepage,.btn-login-homepage{
     width: 100%;
+    height: 40px;
   }
 }
 
@@ -912,7 +914,7 @@ button.btn.btn-registation-finalcontent{
     
   }
   .page-logo{
-    font-size: 40px;
+    font-size: 20px;
   }
   .hoverable{
     display: none;
@@ -932,6 +934,13 @@ button.btn.btn-registation-finalcontent{
 .page-content{
   margin-top: 55px;
   font-family: 'Nunito';
+}
+
+@media screen and (max-width:500px) {
+  .page-content{
+    margin-top: 0px;
+    
+  }
 }
 .billboard-btn{
   cursor: pointer;
@@ -958,22 +967,37 @@ button.btn.btn-registation-finalcontent{
   width: 250px;
   height: 160px;
 }
-@media screen and (max-width: 1366px){
+@media screen and (min-width: 1366px) and (max-width:1566px){
   .logo-group{
-    width: 200px;
-    height: 140px;
+    width: 140px;
+    height: 120px;
   }  
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1366px){
   .logo-group{
-    width: 160px;
+    width: 145px;
     height: 120px;
   }  
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
   .logo-group{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }  
+  .btn.btn-danger.rounded-circle{
+    font-size: 14px !important;
+  }
+  .chinh-phu,.sponsor-by-text,.email-text, .text-money{
+    font-size: 20px !important;
+    margin-bottom: 0px !important;
+  }
+  .logo-group-all{
+    gap: 0 !important;
+    min-height: unset !important;
+    margin-top: 20px !important;
+  }
+
 }
+
+
