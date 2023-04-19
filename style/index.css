@@ -988,8 +988,12 @@ button.btn.btn-registation-finalcontent{
   .btn.btn-danger.rounded-circle{
     font-size: 14px !important;
   }
-  .chinh-phu,.sponsor-by-text,.email-text, .text-money{
-    font-size: 20px !important;
+  .chinh-phu,.sponsor-by-text, .text-money{
+    font-size: 24px !important;
+    margin-bottom: 0px !important;
+  }
+  .email-text{
+    font-size: 16px;
     margin-bottom: 0px !important;
   }
   .logo-group-all{
